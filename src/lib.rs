@@ -1,5 +1,6 @@
 mod cudd;
 mod peabody;
+mod sylvan;
 
 use std::{
     fmt::Debug,

@@ -65,7 +65,7 @@ impl BddManager for sylvan::Sylvan {
         Self::num_var()
     }
 
-    fn translocate(&self, _bdd: &Self::Bdd) -> Self::Bdd {
-        todo!()
+    fn translocate(&self, bdd: &Self::Bdd) -> Self::Bdd {
+        bdd.clone()
     }
 }

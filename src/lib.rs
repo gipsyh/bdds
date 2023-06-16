@@ -57,7 +57,7 @@ where
     fn support_index(&self) -> Vec<usize>;
 }
 
-pub trait BddManager: Sized + Clone + Debug + 'static
+pub trait BddManager: Sized + Clone + Debug + 'static + PartialEq
 where
     for<'a, 'b> &'a Self::Bdd: Not<Output = Self::Bdd>
         + BitAnd<Self::Bdd, Output = Self::Bdd>

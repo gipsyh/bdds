@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 # peabody = { path = "../peabody" }
-cudd = { path = "../cudd-rs" }
+# cudd = { path = "../cudd-rs" }
 sylvan = { path = "../sylvan-rs" }
